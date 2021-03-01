@@ -12,6 +12,8 @@ print("Python", "Java", sep=", ", end="?")
 print("무엇이 더 재밌을까요?")
 # Python, Java?무엇이 더 재밌을까요?
 
+
+import sys
 # 표준 출력으로 처리
 print("Python", "Java", file=sys.stdout)
 # 표준 에러로 처리
