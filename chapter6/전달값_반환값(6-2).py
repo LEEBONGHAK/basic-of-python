@@ -1,4 +1,4 @@
-# 7-2 전달값과 반환값
+# 6-2 전달값과 반환값
 
 def deposit(balance, money):  # 입금 함수
     print("입금이 완료되었습니다. 잔액을 {0} 원입니다.".format(balance + money))
