@@ -18,3 +18,11 @@ while True:
 무한 루프 - 종료를 위해 ctrl + c
 무한 루프의 경우 최대한 사용하지 않는 편이 좋음 
 '''
+
+'''
+customer = "토르"
+person = "Unknown"
+while person != customer:
+    print("{0}, 커피가 준비 되었습니다".format(customer))
+    person = input("이름이 어떻게 되세요? ")
+'''
