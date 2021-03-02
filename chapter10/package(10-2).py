@@ -1,7 +1,8 @@
 # 10-2 패키지(package)
-# 모듈을 모아둔 집합
+# 모듈을 모아둔 집합 (폴더)
 
 import travel.thailand
+# import tarvel.thailand.ThailandPackage # 사용 불가
 trp_to = travel.thailand.ThailandPackage()
 trp_to.detail()
 # 주의점 : import만 바로 사용 시 뒤에 모듈이나 패키지만 사용가능
